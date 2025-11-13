@@ -2,7 +2,7 @@
  public class IPCviaPipeline {
    public static void main(String[] args)throws IOException,InterruptedException {
     // creating the  first process
-    ProcessBuilder Process1= new ProcessBuilder("cat","IPCviaPipeline.java");
+    ProcessBuilder Process1= new ProcessBuilder("cat","text");
    Process pb1=Process1.start();
     // creating the second process
     ProcessBuilder Process2= new ProcessBuilder("grep","JaiSriRam");
